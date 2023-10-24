@@ -1,0 +1,52 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  min-width: 40rem;
+  background-color: #eef9ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+  
+}
+
+.card {
+  width: 220px;
+  background-color: #fff;
+  padding: 2rem 1rem;
+}
+
+.container h2, .card h3, .card p {
+  color: #016c19;
+}
+
+.card p {
+  font-size: 12px;
+}
+
+.container img {
+  width: 100px ;
+  border-radius: 50%;
+  border: 1px solid #000;
+}
+
+button {
+  width:6rem ;
+  color: #fff;
+  font-size: 10px;
+  border: none;
+  padding: 0.625rem;
+}
